@@ -30,7 +30,7 @@ int main() {
 
     for (i=0;i<jumlah;i++){
         if (kls[i].kehadiran < 80){
-            printf("%d. %s//%d//%f\n", i+1, kls[i].nama, kls[i].nim, kls[i].kehadiran);
+            printf("%d. %s//%d//%.0f\n", i+1, kls[i].nama, kls[i].nim, kls[i].kehadiran);
         }
     }
 
