@@ -29,7 +29,7 @@ int main() {
     printf("\nMahasiswa dengan kehadiran <80%:\n");
 
     for (i=0;i<jumlah;i++){
-        if (kls[i].kehadiran < 0.8){
+        if (kls[i].kehadiran < 80){
             printf("%d. %s//%d//%f\n", i+1, kls[i].nama, kls[i].nim, kls[i].kehadiran);
         }
     }
